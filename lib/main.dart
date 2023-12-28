@@ -1,4 +1,4 @@
-import 'package:akoind/landing_page.dart';
+import 'package:ako_ind/landing_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {

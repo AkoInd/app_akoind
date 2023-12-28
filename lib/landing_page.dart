@@ -8,7 +8,8 @@ class LandingPage extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          SizedBox(
+          Container(
+            margin: const EdgeInsets.only(bottom: 10),
             height: MediaQuery.of(context).size.height / 4,
             child: const Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -61,7 +62,7 @@ class LandingPage extends StatelessWidget {
                       backgroundColor: const Color(0XFFF8EBEB),
                       shape: const CircleBorder(),
                     ),
-                    child: const Icon(Icons.arrow_forward),
+                    child: const Image(image: AssetImage("assets/images/components/arrow_right.png"), width: 32, height: 21.41,),
                   ),
                 )
               ],
