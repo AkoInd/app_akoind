@@ -1,3 +1,4 @@
+import 'package:ako_ind/landing_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +12,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      
+      theme: ThemeData(
+        textTheme: const TextTheme(
+          bodyMedium: TextStyle(fontFamily: 'Poppins'),
+        ),
+      ),
+      home: const LandingPage(),
     );
   }
 }
